@@ -254,7 +254,7 @@ footer{
 
     .hero {
         background-position: 25%;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 135px);
     
         .container{
             padding-bottom: 1.5rem;
