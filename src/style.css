@@ -101,7 +101,6 @@ nav{
     h1{
         font-weight: 700;
     }
-
 }
 
 .hero-page {
@@ -242,6 +241,33 @@ footer{
 }
 
 @media (max-width: 576px) {
+
+    .btn-slmc-lg{
+        padding: .4rem 1.4rem;
+        border-radius: 25rem;
+        font-size: 1rem;
+        font-weight: 550;
+        background: var(--primary-color);
+        border: none;
+        outline: none;
+    }
+
+    .hero {
+        background-position: 25%;
+        height: calc(100vh - 80px);
+    
+        .container{
+            padding-bottom: 1.5rem;
+        }
+        h1{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        padding: 0;
+    }
+
+
     .hero-page-party, .hero-page {
         height: 200px;        
     }
